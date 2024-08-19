@@ -1,0 +1,19 @@
+[SETTINGS]
+language = "tr"
+debug = "false"
+
+[tb0t SETTINGS]
+tb0tv1_delay = "0.244"
+tb0tv2_incrossbutnotdetectedlimit ="8"
+
+[KEYBINDS]
+tb0tv1_enabled = "false"
+tb0tv1_key = "h"
+tb0tv2_enabled = "false"
+tb0tv2_key = "j"
+bh0p_enabled = "false"
+bh0p_key = "k"
+bh0p_jmp_key = "space"
+dck_enabled = "false"
+dck_key = "l"
+dcking_key = "c"
