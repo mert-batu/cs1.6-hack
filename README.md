@@ -1,6 +1,3 @@
-Tabii ki, GitHub projenin vitrinidir. Mevcut içeriği daha modern, profesyonel ve topluluğun ilgisini çekecek bir yapıya kavuşturdum.
-İşte projenin README.md dosyası için profesyonel bir revizyon:
-Proje Dosyası (README.md) İçeriği
 <div align="center">
   <img src="https://github.com/mert-batu/cs1.6-hack/blob/main/screenshots/logo.png?raw=true" alt="Logo" width="800">
 
