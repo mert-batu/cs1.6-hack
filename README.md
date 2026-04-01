@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://github.com/mert-batu/cs1.6-hack/blob/main/screenshots/logo.png?raw=true" alt="Logo" width="800">
+  <img src="https://github.com/mert-batu/cs1.6-hack/blob/main/images/Logo.PNG?raw=true<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/3de35f83-8bfa-43e7-aea1-cf581cedccd3" />
+" alt="Logo" width="800">
 
   # Counter-Strike 1.6 | External Python Multi-Hack
 
