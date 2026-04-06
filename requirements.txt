@@ -1,0 +1,6 @@
+pymem>=1.13.0
+keyboard>=0.13.5
+mouse>=0.7.1
+pywin32>=306
+pygame>=2.5.0
+PyQt5>=5.15.0

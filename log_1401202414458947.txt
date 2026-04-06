@@ -1,12 +1,35 @@
+# TR: Bu dosya main.py tarafinda otomatik okunur.
+# EN: This file is loaded automatically by main.py.
+# TR: Yorum satiri icin # veya ; kullanabilirsin.
+# EN: Use # or ; for comment lines.
+
 [SETTINGS]
+# TR: language -> tr / en
+# EN: language -> tr / en
 language = "tr"
+# TR: debug aciksa moduller ve teknik bilgiler loglanir.
+# EN: when debug is true, module and technical logs are printed.
 debug = "false"
+# TR: ana dongu bekleme suresi (daha dusuk = daha hizli ama daha fazla CPU)
+# EN: main loop delay (lower = faster but more CPU)
+loop_delay = "0.005"
+# TR: toggle tuslarinin tekrar algilama gecikmesi
+# EN: debounce delay for feature toggle keys
+keybind_delay = "0.20"
+# TR: overlay yenileme hizi
+# EN: overlay refresh interval
+overlay_refresh = "0.02"
 
 [tb0t SETTINGS]
+# TR: Triggerbot v1 ates gecikmesi
+# EN: Triggerbot v1 fire delay
 tb0tv1_delay = "0.244"
+# TR: Triggerbot v2 icin offset yakalanamadiginda fallback esigi
+# EN: Triggerbot v2 fallback threshold when offset is not detected
 tb0tv2_incrossbutnotdetectedlimit ="8"
 
 [KEYBINDS]
+# TR/EN: Tum degerler keyboard modulunun anlayacagi key isimleri olmalidir.
 tb0tv1_enabled = "false"
 tb0tv1_key = "h"
 tb0tv2_enabled = "false"
@@ -17,3 +40,43 @@ bh0p_jmp_key = "space"
 dck_enabled = "false"
 dck_key = "l"
 dcking_key = "c"
+# TR: aimbot ac/kapat
+# EN: enable/disable aimbot
+aim_enabled = "false"
+aim_key = "u"
+# TR: bos birakirsan aimbot toggle modunda calisir
+# EN: leave empty for toggle mode
+aim_hold_key = ""
+esp_enabled = "false"
+esp_key = "i"
+crosshair_enabled = "true"
+crosshair_key = "o"
+
+[AIMBOT]
+# TR: FOV penceresi
+# EN: FOV window
+aim_fov = "2"
+# TR: hedefe yumusatma (buyuk deger = daha yumusak hareket)
+# EN: smoothing (higher value = smoother movement)
+aim_smooth = "8"
+# TR: geri tepme kompanzasyonu katsayisi
+# EN: recoil compensation factor
+aim_rcs = "0"
+# TR: hedefleme olcekleme katsayisi
+# EN: target scaling factor
+aim_scalefactor = "360"
+
+[DUCK]
+# TR: duck spam interval
+# EN: duck spam interval
+duck_spam_interval = "0.025"
+
+[OVERLAY]
+# TR: crosshair boyutu ve kalinligi
+# EN: crosshair size and thickness
+crosshair_size = "24"
+crosshair_thickness = "1"
+# TR: ESP kutu baslangic olculeri
+# EN: base ESP box dimensions
+esp_box_width = "15"
+esp_box_height = "25"
